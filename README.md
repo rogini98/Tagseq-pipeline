@@ -131,7 +131,8 @@ Quality thresholds optimized for TagSeq:
 tagseq-pipeline/
 ├── README.md                              # This file
 ├── LICENSE                                # MIT license
-├── simple_setup.sh                     # Project setup and data organization
+├── 0-simple_setup.sh                      # Simple project setup and data organization
+├── 0-project_setup.sh                     # Project setup and data organization for complex data
 ├── run_tagseq_pipeline.sh                 # Simple pipeline runner
 ├── run_tagseq_pipeline_ad.sh              # Advanced pipeline runner
 ├── scripts/                               # Individual pipeline steps
