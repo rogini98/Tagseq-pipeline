@@ -59,7 +59,7 @@ chmod +x *.sh
 
 ```bash
 # 1. Set up project and organize data
-sbatch 0-project_setup.sh 
+./simple_setup.sh 
 
 # 2. Navigate to project directory
 cd /my_project_directory
@@ -68,7 +68,7 @@ cd /my_project_directory
 cp /path/to/tagseq-pipeline/*.sh .
 
 # 4. Run complete pipeline
-./simple_run_pipeline.sh
+./run_tagseq_pipeline.sh
 ```
 
 ## 📖 Detailed Usage
@@ -142,7 +142,7 @@ Quality thresholds optimized for TagSeq:
 tagseq-pipeline/
 ├── README.md                              # This file
 ├── LICENSE                                # MIT license
-├── 0-project_setup.sh                     # Project setup and data organization
+├── simple_setup.sh                     # Project setup and data organization
 ├── run_tagseq_pipeline.sh                 # Simple pipeline runner
 ├── run_tagseq_pipeline_ad.sh              # Advanced pipeline runner
 ├── scripts/                               # Individual pipeline steps
