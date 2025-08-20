@@ -6,17 +6,6 @@ A comprehensive, production-ready pipeline for Tag-based RNA-seq (TagSeq) analys
 
 This pipeline automates the complete TagSeq workflow with integrated quality control, error handling, and resume capabilities. Originally developed for stickleback transcriptomics research, it provides a robust framework for high-throughput TagSeq analysis on SLURM clusters.
 
-### ✨ Key Features
-
-- **🔄 Complete Automation**: Single-command execution from raw files to count matrices
-- **🧪 Integrated Quality Control**: TagSeq-specific QC with automated pass/fail assessment
-- **⚡ Parallel Processing**: Optimized for large datasets with parallel file handling
-- **🔗 Smart Dependencies**: Automatic job dependency management in SLURM
-- **📊 Resume Capability**: Continue from failed steps without restarting
-- **📈 Progress Tracking**: Real-time monitoring with detailed logging
-- **🎓 Student-Friendly**: Clear documentation and error messages
-- **🔧 Configurable**: Easy adaptation to different organisms and cluster environments
-
 ## 📋 Pipeline Steps
 
 | Step | Process | Script | Output |
