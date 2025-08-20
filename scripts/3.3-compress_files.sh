@@ -10,6 +10,7 @@
 #SBATCH -e %x_%j.err
 
 echo "Starting compression at $(date)"
+## change to your directory here
 cd /labs/Bolnick/ROL/test-samples/03_trim
 
 echo "Files to compress: $(ls *.trim 2>/dev/null | wc -l)"
