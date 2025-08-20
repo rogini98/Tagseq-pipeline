@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Simple TagSeq setup script that actually works
+# Simple TagSeq setup script
 # Run this from the directory containing your FASTQ files
 
 set -e
