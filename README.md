@@ -53,8 +53,6 @@ cd tagseq-pipeline
 # Make scripts executable
 chmod +x *.sh
 
-# Check your environment
-./utilities/check_dependencies.sh
 ```
 
 ### Basic Usage
@@ -87,6 +85,9 @@ The pipeline begins with automated project setup and data organization:
 sbatch 0-project_setup.sh /labs/Bolnick/ROL/RoL_2024_analysis \
     /data/JA23263_RoL_2019-2022_full_data \
     /data/FASTQ_Generation_2024-01-26_15_04_37Z-715950346
+
+# Example if you have a simple project directory set up
+./simple_setup.sh
 ```
 
 This creates a complete directory structure and organizes all FASTQ files from nested source directories.
@@ -96,7 +97,7 @@ This creates a complete directory structure and organizes all FASTQ files from n
 #### Option 1: Simple Pipeline Runner (Recommended)
 ```bash
 # Automatic execution with basic monitoring
-./simple_run_pipeline.sh
+./run_tagseq_pipeline.sh
 ```
 
 #### Option 2: Master Pipeline Runner (Advanced)
@@ -142,8 +143,8 @@ tagseq-pipeline/
 ├── README.md                              # This file
 ├── LICENSE                                # MIT license
 ├── 0-project_setup.sh                     # Project setup and data organization
-├── simple_run_pipeline.sh                 # Simple pipeline runner
-├── run_tagseq_pipeline.sh                 # Advanced pipeline runner
+├── run_tagseq_pipeline.sh                 # Simple pipeline runner
+├── run_tagseq_pipeline_ad.sh              # Advanced pipeline runner
 ├── scripts/                               # Individual pipeline steps
 │   ├── 1-concatenate_files.sh            # Lane concatenation
 │   ├── 2-run_gunzip.sh                   # File decompression
@@ -268,14 +269,6 @@ sacct -u $(whoami) --starttime=today --state=FAILED
 ./run_tagseq_pipeline.sh --start-at 6 --resume
 ```
 
-### Getting Help
-
-1. **Check logs**: Always start with `.out` and `.err` files
-2. **Review documentation**: See `docs/` for detailed guides
-3. **Validate environment**: Run `utilities/check_dependencies.sh`
-4. **Test with small dataset**: Use example data first
-5. **Contact support**: Open an issue with log files
-
 ## 🔬 Adapting to Other Organisms
 
 ### Quick Adaptation
@@ -300,12 +293,6 @@ MIN_READS_PER_SAMPLE=500000
 SPECIES_NAME="Your organism"
 GENOME_SA_INDEX_NBASES=14  # Adjust based on genome size
 ```
-
-### Supported Organisms
-
-- **Stickleback** (*Gasterosteus aculeatus*) - Default, fully optimized
-- **Zebrafish** (*Danio rerio*) - Tested with minor modifications
-
 ## 📚 Citations and References
 
 ### Software Citations
@@ -365,7 +352,7 @@ This project is licensed under the MIT License.
 
 ## 📧 Contact
 
-- **Primary Contact**: Rogini Runghen - rogini.runghen@gmail.com / Grace Vaziri
+- **Primary Contact**: Rogini Runghen - rogini.runghen@gmail.com / Grace Vaziri - 
 - **Lab Website**: [Lab URL]
 - **Issues**: [GitHub Issues Page]
 
