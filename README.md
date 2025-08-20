@@ -329,12 +329,16 @@ If you use this pipeline, please cite the underlying tools:
 - **STAR**: Dobin, A. et al. (2013) STAR: ultrafast universal RNA-seq aligner. *Bioinformatics* 29:15-21
 - **FastQC**: Andrews, S. (2010) FastQC: a quality control tool for high throughput sequence data
 - **MultiQC**: Ewels, P. et al. (2016) MultiQC: summarize analysis results for multiple tools and samples in a single report. *Bioinformatics* 32:3047-3048
-- **TagSeq**: Meyer, E. et al. (2011) Profiling gene expression responses of coral larvae (Acropora millepora) to elevated temperature and settlement inducers using a novel RNA-Seq procedure. *Mol Ecol* 20:3599-3616
+- **TagSeq**: Paropkari AD, Bapat PS, Sindi SS, Nobile CJ. A, Computational Workflow for Analysis of 3' Tag-Seq Data. Curr Protoc. 2023 Feb;3(2):e664. doi: 10.1002/cpz1.664. PMID: 36779816.
 
 
 ## 🤝 Contributing
 
-This code was originally developed by Rogini Runghen and Grace Vaziri. We welcome contributions! Please see our contributing guidelines:
+This code was originally developed by Grace Vaziri and Rogini Runghen. 
+Note that we re-adapted the script from the UC Davis tutorial (https://raw.githubusercontent.com/ucdavis-bioinformatics-training/2022-June-RNA-Seq-Analysis/master/software_scripts/scripts/star_index.slurm) for 
+the star alignment and genome indexing. 
+
+We welcome contributions! Please see our contributing guidelines:
 
 ### How to Contribute
 
