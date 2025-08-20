@@ -76,7 +76,7 @@ sbatch 0-project_setup.sh /labs/Bolnick/ROL/RoL_2024_analysis \
     /data/FASTQ_Generation_2024-01-26_15_04_37Z-715950346
 
 # Example if you have a simple project directory set up
-./simple_setup.sh
+./0-simple_setup.sh
 ```
 
 This creates a complete directory structure and organizes all FASTQ files from nested source directories.
