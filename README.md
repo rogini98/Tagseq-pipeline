@@ -341,7 +341,7 @@ This project is licensed under the MIT License.
 
 ## 📧 Contact
 
-- **Primary Contact**: Rogini Runghen - rogini.runghen@gmail.com / Grace Vaziri - 
+- **Primary Contact**: Rogini Runghen - rogini.runghen@gmail.com / Grace Vaziri - gracevaziri@gmail.com
 - **Lab Website**: [Lab URL]
 - **Issues**: [GitHub Issues Page]
 
