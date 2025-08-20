@@ -346,7 +346,6 @@ This project is licensed under the MIT License.
 
 - **TagSeq method development**: Meyer et al. (2011)
 - **STAR aligner development**: Dobin et al. (2013)  
-- **Stickleback genome consortium**: Broad Institute
 - **University of Connecticut HPC**: Computational resources
 - **Bolnick Lab**: Method development and testing
 
