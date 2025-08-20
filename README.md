@@ -156,21 +156,7 @@ tagseq-pipeline/
 │   ├── 4.1-generate_sample_list.sh       # Sample manifest
 │   ├── 5-davis_star_extended.sh          # Read alignment
 │   └── 6-collect_counts.sh               # Count collection
-├── config/                                # Configuration templates
-│   ├── pipeline.conf                     # Main configuration
-│   └── slurm_template.sh                 # SLURM job template
-├── utilities/                             # Helper scripts
-│   ├── check_dependencies.sh             # Environment validation
-│   ├── setup_project.sh                  # Quick project initialization
-│   └── generate_report.sh                # Summary reporting
-├── docs/                                  # Documentation
-│   ├── installation.md                   # Detailed setup guide
-│   ├── configuration.md                  # Customization options
-│   ├── troubleshooting.md                # Common issues and solutions
-│   └── examples/                         # Usage examples
-└── examples/                              # Example datasets and configs
-    ├── sample_data/                      # Small test dataset
-    └── expected_outputs/                 # Reference results
+
 ```
 
 ## ⚙️ Configuration
