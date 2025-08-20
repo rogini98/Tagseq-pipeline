@@ -94,7 +94,7 @@ This creates a complete directory structure and organizes all FASTQ files from n
 
 ### Pipeline Execution Options
 
-#### Option 1: Simple Pipeline Runner (Recommended)
+#### Simple Pipeline Runner (Recommended)
 ```bash
 # Automatic execution with basic monitoring
 ./run_tagseq_pipeline.sh
@@ -103,19 +103,19 @@ This creates a complete directory structure and organizes all FASTQ files from n
 #### Option 2: Master Pipeline Runner (Advanced)
 ```bash
 # Complete pipeline with all features
-./run_tagseq_pipeline.sh
+./run_tagseq_pipeline_ad.sh
 
 # Interactive mode with step-by-step confirmation
-./run_tagseq_pipeline.sh --interactive
+./run_tagseq_pipeline_ad.sh --interactive
 
 # Preview jobs without submitting
-./run_tagseq_pipeline.sh --dry-run
+./run_tagseq_pipeline_ad.sh --dry-run
 
 # Run specific steps only
-./run_tagseq_pipeline.sh --start-at 4 --stop-at 6
+./run_tagseq_pipeline_ad.sh --start-at 4 --stop-at 6
 
 # Resume from failed step
-./run_tagseq_pipeline.sh --resume
+./run_tagseq_pipeline_ad.sh --resume
 ```
 
 ### Quality Control Integration
