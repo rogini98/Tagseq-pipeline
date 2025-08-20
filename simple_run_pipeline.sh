@@ -107,7 +107,7 @@ create_trimming_wrapper() {
 #SBATCH --time=24:00:00
 #SBATCH --partition=general
 #SBATCH --qos=general
-#SBATCH --mail-user=rogini.runghen@uconn.edu
+#SBATCH --mail-user=youremail@institute.edu
 #SBATCH -o %x_%j.out
 #SBATCH -e %x_%j.err
 
