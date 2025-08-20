@@ -21,7 +21,7 @@ This pipeline automates the complete TagSeq workflow with integrated quality con
 
 | Step | Process | Script | Output |
 |------|---------|--------|--------|
-| **1** | File Organization | `simple_setup.sh` | Organized project structure |
+| **1** | File Organization | `0-simple_setup.sh` | Organized project structure |
 | **2** | Lane Concatenation | `1-concatenate_files.sh` | `01_merged_files/` |
 | **3** | File Decompression | `2-run_gunzip.sh` | Uncompressed FASTQ files |
 | **4** | Quality Control | `2.1-fastqc_multiqc_merged.sh` | FastQC/MultiQC reports |
@@ -59,7 +59,7 @@ chmod +x *.sh
 
 ```bash
 # 1. Set up project and organize data
-./simple_setup.sh 
+./0-simple_setup.sh 
 
 # 2. Navigate to project directory
 cd /my_project_directory
