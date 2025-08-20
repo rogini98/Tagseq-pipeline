@@ -8,7 +8,7 @@
 #SBATCH --partition=general
 #SBATCH --qos=general
 #SBATCH --mail-type=ALL
-#SBATCH --mail-user=rogini.runghen@uconn.edu
+#SBATCH --mail-user=user.name@institute.edu
 #SBATCH -o %x_%j.out
 #SBATCH -e %x_%j.err
 
